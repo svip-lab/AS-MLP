@@ -1,0 +1,9 @@
+MODEL:
+  TYPE: asmlp
+  NAME: asmlp_small_patch4_shift5_224
+  DROP_PATH_RATE: 0.3
+  ASMLP:
+    EMBED_DIM: 96
+    DEPTHS: [ 2, 2, 18, 2 ]
+    SHIFT_SIZE: 5
+
