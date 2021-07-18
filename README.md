@@ -6,9 +6,9 @@
 
 | Network | Resolution | Top-1 (%) | Params | FLOPs | Throughput (image/s) | model |
 |:---:|:---:|:---:|:---:| :---:| :---:|:---:|
-| AS-MLP-T | 224x224 | 81.3 | 28M | 4.4G | 1047 | [download](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth) |
-| AS-MLP-S | 224x224 | 83.1 | 50M | 8.5G | 619 | [download](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_small_patch4_window7_224.pth) |
-| AS-MLP-B | 224x224 | 83.3 | 88M | 15.2G | 455 | [download](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224.pth) |
+| AS-MLP-T | 224x224 | 81.3 | 28M | 4.4G | 1047 | [onedrive](https://shanghaitecheducn-my.sharepoint.com/:u:/g/personal/liandz_shanghaitech_edu_cn/EWk6ghkjEOhMkipfhHIGrx4B2X1PviORui6QqtYAItjkEw?e=0ZfzaD) |
+| AS-MLP-S | 224x224 | 83.1 | 50M | 8.5G | 619 | [onedrive](https://shanghaitecheducn-my.sharepoint.com/:u:/g/personal/liandz_shanghaitech_edu_cn/EeWgVQn2kRtJqxGSUi5XqOwBuMwqTdXPOs-Jy4RBydaodw?e=qgluUN) |
+| AS-MLP-B | 224x224 | 83.3 | 88M | 15.2G | 455 | [onedrive](https://shanghaitecheducn-my.sharepoint.com/:u:/g/personal/liandz_shanghaitech_edu_cn/EQLPwG2DaD1HnjPiKboghUoBLntZvWBqym4_wUGlejuqeg?e=8Das4H) |
 
 
 ## Usage
@@ -18,15 +18,15 @@
 - Clone this repo:
 
 ```bash
-git clone https://github.com/microsoft/Swin-Transformer.git
-cd Swin-Transformer
+git clone https://github.com/svip-lab/AS-MLP
+cd AS-MLP
 ```
 
 - Create a conda virtual environment and activate it:
 
 ```bash
 conda create -n swin python=3.7 -y
-conda activate swin
+conda activate asmlp
 ```
 
 - Install `CUDA==10.1` with `cudnn7` following
@@ -57,7 +57,7 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
 pip install opencv-python==4.4.0.46 termcolor==1.1.0 yacs==0.1.8
 ```
 
-### Data preparation
+<!-- ### Data preparation
 
 We use standard ImageNet dataset, you can download it from http://image-net.org/. We provide the following two ways to
 load data:
@@ -85,7 +85,7 @@ load data:
       │   └── ...
       └── ...
  
-  ```
+  ``` -->
 
 
 ### Evaluation
@@ -104,6 +104,8 @@ To train a `AS-MLP` on ImageNet from scratch, run:
 ```bash
 bash train_scripts/train.sh
 ```
+
+You can easily reproduce our results. Enjoy!
 
 
 ### Throughput
