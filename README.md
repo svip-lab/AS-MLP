@@ -25,7 +25,7 @@ cd AS-MLP
 - Create a conda virtual environment and activate it:
 
 ```bash
-conda create -n swin python=3.7 -y
+conda create -n asmlp python=3.7 -y
 conda activate asmlp
 ```
 
