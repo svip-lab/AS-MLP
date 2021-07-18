@@ -6,9 +6,9 @@
 
 | Network | Resolution | Top-1 (%) | Params | FLOPs | Throughput (image/s) | model |
 |:---:|:---:|:---:|:---:| :---:| :---:|:---:|
-| AS-MLP-T | 224x224 | 81.3 | 28M | 4.4G | 1047 | [onedrive](https://shanghaitecheducn-my.sharepoint.com/:u:/g/personal/liandz_shanghaitech_edu_cn/EWk6ghkjEOhMkipfhHIGrx4B2X1PviORui6QqtYAItjkEw?e=0ZfzaD) |
-| AS-MLP-S | 224x224 | 83.1 | 50M | 8.5G | 619 | [onedrive](https://shanghaitecheducn-my.sharepoint.com/:u:/g/personal/liandz_shanghaitech_edu_cn/EeWgVQn2kRtJqxGSUi5XqOwBuMwqTdXPOs-Jy4RBydaodw?e=qgluUN) |
-| AS-MLP-B | 224x224 | 83.3 | 88M | 15.2G | 455 | [onedrive](https://shanghaitecheducn-my.sharepoint.com/:u:/g/personal/liandz_shanghaitech_edu_cn/EQLPwG2DaD1HnjPiKboghUoBLntZvWBqym4_wUGlejuqeg?e=8Das4H) |
+| AS-MLP-T | 224x224 | 81.3 | 28M | 4.4G | 1047 | [onedrive](https://shanghaitecheducn-my.sharepoint.com/:u:/g/personal/liandz_shanghaitech_edu_cn/Eb2lPJI2BshEjJxf9CmRkCUBnB63Wj25-FVVc6zJvgRg6w?e=dEQd5q) |
+| AS-MLP-S | 224x224 | 83.1 | 50M | 8.5G | 619 | [onedrive](https://shanghaitecheducn-my.sharepoint.com/:u:/g/personal/liandz_shanghaitech_edu_cn/EVIbw8xHKk1Aq9MBQL-cRbIBVJA_hJE-HEVNf_GVgkw2iQ?e=QIIp2e) |
+| AS-MLP-B | 224x224 | 83.3 | 88M | 15.2G | 455 | [onedrive](https://shanghaitecheducn-my.sharepoint.com/:u:/g/personal/liandz_shanghaitech_edu_cn/EZVBFW_LKctLqgrnnINy88wBRtGFava9wp_65emsvVW2KQ?e=clNjuw) |
 
 
 ## Usage
@@ -106,6 +106,7 @@ bash train_scripts/train.sh
 ```
 
 You can easily reproduce our results. Enjoy!
+
 
 
 ### Throughput
