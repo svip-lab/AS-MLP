@@ -65,9 +65,10 @@ class AxialShift(nn.Module):
         x = self.conv1(x)
         x = self.norm1(x)
         x = self.actn(x)
-      
-        ''' 
+       
         x = F.pad(x, (self.pad, self.pad, self.pad, self.pad) , "constant", 0)
+        
+        '''
         xs = torch.chunk(x, self.shift_size, 1)
 
         def shift(dim):
