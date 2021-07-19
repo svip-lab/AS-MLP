@@ -43,6 +43,12 @@ conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.1 -c pytorch
 pip install timm==0.3.2
 ```
 
+- Install `cupy-cuda101`:
+
+```bash
+pip install cupy-cuda101
+```
+
 - Install `Apex`:
 
 ```bash
