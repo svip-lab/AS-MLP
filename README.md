@@ -128,13 +128,12 @@ bash train_scripts/get_throughput.sh
 If this project is helpful for you, you can cite our paper:
 ```
 @article{Lian_2021_ASMLP,
-author = {Lian, Dongze and Yu, Zehao and Sun, Xing and Gao, Shenghua},
-title = {AS-MLP: An Axial Shifted MLP Architecture for Vision},
-journal={arXiv preprint arXiv:2107.08391},
-year = {2021}
+  author = {Lian, Dongze and Yu, Zehao and Sun, Xing and Gao, Shenghua},
+  title = {AS-MLP: An Axial Shifted MLP Architecture for Vision},
+  journal={arXiv preprint arXiv:2107.08391},
+  year = {2021}
 }
 ```
-
 
 ### Acknowledgement
 The code is built upon [Swin-Transformer](https://github.com/microsoft/Swin-Transformer)
