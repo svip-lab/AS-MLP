@@ -212,11 +212,11 @@ class PatchMerging(nn.Module):
 
         x = x.view(B, C, H, W)
 
-        x0 = x[:, :, 0::2, 0::2]  # B H/2 W/2 C
-        x1 = x[:, :, 1::2, 0::2]  # B H/2 W/2 C
-        x2 = x[:, :, 0::2, 1::2]  # B H/2 W/2 C
-        x3 = x[:, :, 1::2, 1::2]  # B H/2 W/2 C
-        x = torch.cat([x0, x1, x2, x3], 1)  # B H/2 W/2 4*C
+        x0 = x[:, :, 0::2, 0::2]  # B C H/2 W/2 
+        x1 = x[:, :, 1::2, 0::2]  # B C H/2 W/2 
+        x2 = x[:, :, 0::2, 1::2]  # B C H/2 W/2 
+        x3 = x[:, :, 1::2, 1::2]  # B C H/2 W/2 
+        x = torch.cat([x0, x1, x2, x3], 1)  # B 4*C H/2 W/2 
 
         x = self.norm(x)
         x = self.reduction(x)
