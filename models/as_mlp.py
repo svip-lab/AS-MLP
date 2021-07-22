@@ -152,7 +152,6 @@ class AxialShiftedBlock(nn.Module):
         self.mlp = Mlp(in_features=dim, hidden_features=mlp_hidden_dim, act_layer=act_layer, drop=drop)
 
     def forward(self, x):
-        H, W = self.input_resolution
         B, C, H, W = x.shape
 
         shortcut = x
@@ -205,7 +204,6 @@ class PatchMerging(nn.Module):
         """
         x: B, H*W, C
         """
-        H, W = self.input_resolution
         B, C, H, W = x.shape
         #assert L == H * W, "input feature has wrong size"
         assert H % 2 == 0 and W % 2 == 0, f"x size ({H}*{W}) are not even."
