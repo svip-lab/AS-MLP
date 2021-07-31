@@ -158,7 +158,7 @@ class AxialShiftedBlock(nn.Module):
         x = self.norm1(x)
 
         # axial shift block
-        x = self.axial_shift(x)  # nW*B, window_size*window_size, C
+        x = self.axial_shift(x)  # B, C, H, W
 
         # FFN
         x = shortcut + self.drop_path(x)
@@ -441,8 +441,8 @@ class AS_MLP(nn.Module):
         for layer in self.layers:
             x = layer(x)
 
-        x = self.norm(x)  # B L C
-        x = self.avgpool(x)  # B C 1
+        x = self.norm(x)  # B C H W
+        x = self.avgpool(x)  # B C 1 1
         x = torch.flatten(x, 1)
         return x
 
