@@ -136,4 +136,4 @@ If this project is helpful for you, you can cite our paper:
 ```
 
 ### Acknowledgement
-The code is built upon [Swin-Transformer](https://github.com/microsoft/Swin-Transformer)
+The code is built upon [Swin-Transformer](https://github.com/microsoft/Swin-Transformer), the cuda kernel is modified from [Involution](https://github.com/d-li14/involution/blob/main/cls/mmcls/models/utils/involution_cuda.py).
