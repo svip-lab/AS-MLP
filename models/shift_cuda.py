@@ -1,3 +1,4 @@
+# the code is modified from https://github.com/d-li14/involution/blob/main/cls/mmcls/models/utils/involution_cuda.py
 from torch.autograd import Function
 import torch
 from torch.nn.modules.utils import _pair
