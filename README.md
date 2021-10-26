@@ -1,5 +1,7 @@
 # AS-MLP architecture for Image Classification
 
+This repo is the official implementation of paper "AS-MLP: An Axial Shifted MLP Architecture for Vision" ([arXiv](https://arxiv.org/abs/2107.08391)). 
+
 ## Model Zoo
 
 ### Image Classification on ImageNet-1K
