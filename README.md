@@ -137,5 +137,11 @@ If this project is helpful for you, you can cite our paper:
 }
 ```
 
+### Other Links
+
+> **Object Detection and Instance Segmentation**: See [AS-MLP for Object Detection](https://github.com/svip-lab/AS-MLP-Object-Detection).
+
+
+
 ### Acknowledgement
 The code is built upon [Swin-Transformer](https://github.com/microsoft/Swin-Transformer), the cuda kernel is modified from [Involution](https://github.com/d-li14/involution/blob/main/cls/mmcls/models/utils/involution_cuda.py).
