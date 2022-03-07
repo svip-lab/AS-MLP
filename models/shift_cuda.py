@@ -167,7 +167,7 @@ class _shift(Function):
         return grad_input, None, None
  
 def _shift_cuda(input, shift, dim):
-    """ involution kernel
+    """ shift kernel
     """
     assert shift >=3 and shift % 2 == 1
     assert dim == 2 or dim == 3
