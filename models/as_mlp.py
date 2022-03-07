@@ -1,3 +1,9 @@
+# --------------------------------------------------------
+# AS-MLP
+# Licensed under The MIT License [see LICENSE for details]
+# Written by Zehao Yu and Dongze Lian (AS-MLP)
+# --------------------------------------------------------
+
 
 import torch
 import torch.nn as nn
