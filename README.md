@@ -129,11 +129,11 @@ bash train_scripts/get_throughput.sh
 ### Citation
 If this project is helpful for you, you can cite our paper:
 ```
-@article{Lian_2021_ASMLP,
-  author = {Lian, Dongze and Yu, Zehao and Sun, Xing and Gao, Shenghua},
-  title = {AS-MLP: An Axial Shifted MLP Architecture for Vision},
-  journal={ICLR},
-  year = {2022}
+@InProceedings{Lian_2021_ASMLP,
+	title={AS-MLP: An Axial Shifted MLP Architecture for Vision},
+	author={Lian, Dongze and Yu, Zehao and Sun, Xing and Gao, Shenghua},
+	booktitle={International Conference on Learning Representations (ICLR)},
+	year={2022}
 }
 ```
 
